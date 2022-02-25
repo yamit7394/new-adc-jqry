@@ -1,0 +1,39 @@
+#main,#container{
+    width:50%;
+    margin: auto;
+    margin-right: 30%;
+}
+.input-lable{
+    display: block;
+    margin-top:20px;
+    font-size: 20px;
+    text-align: right;
+}
+#container input{
+    height: 30px;
+    margin-left: 10%;
+}
+#addProduct{
+    height: 30px; 
+    margin-top: 20px;
+    width: 50%;
+}
+#product{
+    width:70%;
+    margin:auto;
+}
+#productTable{
+    margin: 5%;
+    border-spacing: 30px;
+    display:none;
+}
+#productTable th,td{
+    padding-left:40px;
+    text-align: center;
+}
+#updateProduct{
+    height: 30px; 
+    margin-top: 20px;
+    width: 50%; 
+    display: none;
+}
