@@ -1,0 +1,22 @@
+#main{
+    width: 70%;
+    margin: auto;
+}
+#wrapper{
+    width:60%;
+    margin:auto;
+}
+#wrapper table,tr,th,td{
+    border: 1px black solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+#prTable{
+    text-align: center;
+}
+#searchSection,#filterSection{
+    width:60%;
+    margin:auto;
+    margin-top:5%;
+    margin-bottom:5%;
+}

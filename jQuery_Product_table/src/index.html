@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="wrapper">
+        <form id="product_form">
+            <div id="add_product_form">
+                <label for="product_sku">
+                    <span>Product SKU</span> 
+                    <input type="text" name="product_sku" id="product_sku">
+                </label>
+                <label for="product_name">
+                    <span>Product Name</span> 
+                    <input type="text" name="product_name" id="product_name">
+                </label>
+                <label for="product_price">
+                    <span>Product Price</span> 
+                    <input type="text" name="product_price" id="product_price">
+                </label>
+                <label for="product_quantity">
+                    <span>Product Quantity</span> 
+                    <input type="text" name="product_quantity" id="product_quantity">
+                </label>
+                <p class="submit">
+                    <input type="button" name="add_product" id="add_product" value="Add Product">
+                    <input type="button" name="update_product" id="update_product" value="Update Product">
+                </p>
+            </div>
+        </form>
+		<div id="notification">
+			<div class="success">Product Added Successfully.<a href="#" class="close">X</a></div>
+			<div class="error">Product already exist<a href="#" class="close">X</a></div>
+            
+		</div>
+		<div id="product_list">
+			<table>
+				<tr>
+					<th>SKU</th>
+					<th>Name</th>
+					<th>Price</th>
+					<th>Quantity</th>
+					<th>Action</th>
+				</tr>
+				<tbody id="tableBody"></tbody>
+			</table>
+		</div>
+	</div>
+
+    <script src="jqueryScript.js"></script>
+</body>
+</html>

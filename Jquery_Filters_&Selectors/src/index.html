@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>J-Query Filters & Selectors</title>
+</head>
+<body>
+    <div id="main">
+        <div id="searchSection">
+            <lable>Search
+                <input type="text" id="searchText" placeholder="Enter product ID or Name">
+            </lable>
+        </div>
+        <div id="filterSection">
+            <lable>Filter
+                <select id="filterByBrand" name="filterByBrand">
+                    <option value=""></option>
+                    <option value="Apple">Apple</option>
+                    <option value="Motorola">Motorola</option>
+                    <option value="Samsung">Samsung</option>
+                    <option value="ASUS">ASUS</option>
+                    <option value="Microsoft">Microsoft</option>
+                </select>
+
+                <select id="filterByOs" name="filterByOs">
+                    <option value=""></option>
+                    <option value="Android">Android</option>
+                    <option value="iOS">iOS</option>
+                    <option value="Windows">Windows</option>
+                </select>
+            </lable>
+        </div>
+        <div id="wrapper">
+            
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
