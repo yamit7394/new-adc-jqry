@@ -1,0 +1,32 @@
+#calc-section{
+    width:40%;
+    margin: auto;
+}
+#calc-section #calculator{
+    width: 100%;
+}
+#result{
+    width: 95.5%;
+    padding: 2%;
+    background-color: rgb(95, 95, 95);
+    color: white;
+    font-size: large;
+    text-align: right;
+}
+#calculator tr{
+    width: 100%;
+}
+#calculator td{
+    width: 20%;
+}
+#calculator td button{
+    padding: 5%;
+    background-color: rgb(95, 95, 95);
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+}
+#calculator td button:hover{
+    background-color: rgb(82, 116, 113);
+}
