@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.txt-size{
+    size: 5px !important;
+}
+.float-end{
+    float: right !important;
+}
+.btn{
+    padding: 10px;
+}
+#desc-section{
+    border-bottom: 2px solid gray;
+}
+.p-2{
+    padding-left: 30px;
+}
+#feature{
+    border-top: 2px solid gray;
+}
+.feature-icon i{
+    color: #0D6EFD;
+    font-size: 40px;
+    margin: 0px 20px 0px 20px;
+}
+#footer-logo{
+    margin-left: 2rem;
+}
+#newsLetterBtn{
+    margin-left: 10px;
+}
